@@ -4,7 +4,7 @@
 def checkio(num: int):
     
     # permite comparar padrões(match)
-    # Aqui criamos uma tupla com dois valores booleanos:
+    # há uma tupla com dois valores booleanos:
     # - O primeiro elemento será True se o número for divisível por 3.
     # - O segundo elemento será True se o número for divisível por 5.
     match (num % 3 == 0, num % 5 == 0):
@@ -22,7 +22,7 @@ def checkio(num: int):
             # Retorna o número convertido em string
             return str(num)
 
-# Teste simples: número 7 → não é divisível por 3 nem por 5
+# Teste simples: número 7 não é divisível por 3 nem por 5
 print(checkio(7))
 
 print("Example:")
